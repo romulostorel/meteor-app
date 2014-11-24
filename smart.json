@@ -1,3 +1,9 @@
 {
-  "packages": {}
+  "name": "meteor-bird",
+  "description": "Meteor Bird Social Network",
+  "author": "Romulo Storel",
+  "version": "0.0.1"
+  "packages": {
+    "bootstrap-3": {}
+  }
 }
