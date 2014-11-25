@@ -1,8 +1,5 @@
 Template.timeline.helpers({
   posts: function () {
-    return [
-      { message: 'ola!' },
-      { message: 'tudo bem?' }
-    ];
+    return Session.get("posts");
   }
 });
